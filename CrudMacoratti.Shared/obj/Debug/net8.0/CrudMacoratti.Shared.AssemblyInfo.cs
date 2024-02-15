@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudMacoratti.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaf4821c5134edaa8bc59fcd414f81182fb690f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudMacoratti.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudMacoratti.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

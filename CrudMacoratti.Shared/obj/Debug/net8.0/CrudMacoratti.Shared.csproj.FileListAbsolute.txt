@@ -1,0 +1,12 @@
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\bin\Debug\net8.0\CrudMacoratti.Shared.deps.json
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\bin\Debug\net8.0\CrudMacoratti.Shared.dll
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\bin\Debug\net8.0\CrudMacoratti.Shared.pdb
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\CrudMacoratti.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\CrudMacoratti.Shared.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\CrudMacoratti.Shared.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\CrudMacoratti.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\CrudMacoratti.Shared.sourcelink.json
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\CrudMacoratti.Shared.dll
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\refint\CrudMacoratti.Shared.dll
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\CrudMacoratti.Shared.pdb
+C:\Users\Usuario\Desktop\Courses\JwtAsp\CrudMacoratti\CrudMacoratti.Shared\obj\Debug\net8.0\ref\CrudMacoratti.Shared.dll

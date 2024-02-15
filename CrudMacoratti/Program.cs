@@ -1,5 +1,9 @@
 using CrudMacoratti.Client.Pages;
 using CrudMacoratti.Components;
+using CrudMacoratti.Context;
+using CrudMacoratti.Repositories;
+using CrudMacoratti.Shared.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +11,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<ClienteContext>(opt => opt.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+
+builder.Services.AddScoped(http => new HttpClient
+{
+    BaseAddress = new Uri(builder.Configuration.GetSection("BaseAddress").Value!)
+});
 
 var app = builder.Build();
 
@@ -17,10 +32,9 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
 
 app.UseHttpsRedirection();
 

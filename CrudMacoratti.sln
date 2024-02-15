@@ -4,8 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudMacoratti", "CrudMacoratti\CrudMacoratti.csproj", "{BEA717CF-3A89-46FE-918E-48BD3F6E854D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E176CA61-B76C-4AE7-A843-E516E3DAAAC2} = {E176CA61-B76C-4AE7-A843-E516E3DAAAC2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudMacoratti.Client", "CrudMacoratti.Client\CrudMacoratti.Client.csproj", "{6BAF5E76-5050-4034-BAF2-B179B7372AFE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E176CA61-B76C-4AE7-A843-E516E3DAAAC2} = {E176CA61-B76C-4AE7-A843-E516E3DAAAC2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudMacoratti.Shared", "CrudMacoratti.Shared\CrudMacoratti.Shared.csproj", "{E176CA61-B76C-4AE7-A843-E516E3DAAAC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,10 @@ Global
 		{6BAF5E76-5050-4034-BAF2-B179B7372AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BAF5E76-5050-4034-BAF2-B179B7372AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BAF5E76-5050-4034-BAF2-B179B7372AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E176CA61-B76C-4AE7-A843-E516E3DAAAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E176CA61-B76C-4AE7-A843-E516E3DAAAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E176CA61-B76C-4AE7-A843-E516E3DAAAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E176CA61-B76C-4AE7-A843-E516E3DAAAC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
