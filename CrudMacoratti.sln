@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudMacoratti", "CrudMacoratti\CrudMacoratti.csproj", "{BEA717CF-3A89-46FE-918E-48BD3F6E854D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudMacoratti.Client", "CrudMacoratti.Client\CrudMacoratti.Client.csproj", "{6BAF5E76-5050-4034-BAF2-B179B7372AFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA717CF-3A89-46FE-918E-48BD3F6E854D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA717CF-3A89-46FE-918E-48BD3F6E854D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA717CF-3A89-46FE-918E-48BD3F6E854D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA717CF-3A89-46FE-918E-48BD3F6E854D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAF5E76-5050-4034-BAF2-B179B7372AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAF5E76-5050-4034-BAF2-B179B7372AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAF5E76-5050-4034-BAF2-B179B7372AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAF5E76-5050-4034-BAF2-B179B7372AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {094A924E-3D1E-4133-A227-AF57FEF011E0}
+	EndGlobalSection
+EndGlobal
